@@ -9,7 +9,8 @@ def getText(filename):
         fullText.append(para.text)
     return '\n'.join(fullText)
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",
+                  page_title="Script Translation and Analysis")
 
 raw_data = st.container()
 scriptArea = st.container()
